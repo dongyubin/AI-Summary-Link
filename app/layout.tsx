@@ -12,6 +12,7 @@ import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";
 import { Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
+import Head from 'next/head';
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -42,7 +43,9 @@ export default async function RootLayout({
 }) {
   return (
     <html lang={(lang && lang[0]) || defaultLocale} suppressHydrationWarning>
-      <head />
+      <head>
+        <meta name="google-site-verification" content="luo4DJRuBPZWP56ItJcu7hQMhUd2UvXAZsrzAUi1_Dc" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
