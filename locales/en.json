@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
+    "title1": "AI Quick Generation",
+    "title2": "Link Summary Tool",
     "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "description": "An open-source AI link summary tool suitable for various blogs and links, enhancing blog SEO."
   },
   "SocialProof": {
     "maker": "makers ship fast"
@@ -38,6 +38,6 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Get Code"
   }
 }
