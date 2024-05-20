@@ -15,7 +15,7 @@
     "title": "Pricing",
     "title2": "Get unlimited access.",
     "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
+    "doYouLike": "",
     "follow": "Follow my Twitter."
   },
   "WallOfLove": {
@@ -26,12 +26,12 @@
   },
   "FAQ": {
     "title": "FAQs",
-    "description": "Here are some of the most frequently asked questions."
+    "description": ""
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
+    "title": "",
     "description1": "Build",
-    "description2": "your landing page,",
+    "description2": "",
     "description3": "show",
     "description4": "your product, and",
     "description5": "start earning",
