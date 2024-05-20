@@ -9,15 +9,15 @@ const baseSiteConfig = {
   name: "AI Link Summarizer",
   description:
     "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://landingpage.weijunext.com",
-  ogImage: "https://landingpage.weijunext.com/og.png",
+  url: "https://www.aisummary.link",
+  ogImage: "https://www.aisummary.link/og.png",
   metadataBase: '/',
   keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      name: "wwkjs666",
+      url: "https://www.aisummary.link",
+      twitter: 'https://twitter.com/wwkjs666',
     }
   ],
   creator: '@wwkjs666',
