@@ -8,11 +8,11 @@ const OPEN_SOURCE_URL = 'https://github.com/dongyubin/AI-Summary-Link'
 const baseSiteConfig = {
   name: "AI Link Summarizer",
   description:
-    "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
+    "An open-source AI link summary tool suitable for various blogs and links, enhancing blog SEO.",
   url: "https://www.aisummary.link",
   ogImage: "https://www.aisummary.link/og.png",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["AI Link Summarizer", "AI Summarizer", "AI Article Summarizer", "AI Summarizer Article"],
   authors: [
     {
       name: "wwkjs666",
