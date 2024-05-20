@@ -39,4 +39,4 @@
 
 ### wwGPT_key
 
-在 [发卡平台购买激活码](https://fk.wwkejishe.top/buy/16) ，10 万字符/19.9元，请求过得链接再次请求不会消耗字符额度，可以无限期使用。
+先在 [管理后台](https://www.wangdu.site/wp-login.php?action=register)，然后在 [发卡平台购买激活码](https://fk.wwkejishe.top/buy/16) ，10 万字符/19.9元，请求过得链接再次请求不会消耗字符额度，可以无限期使用。
