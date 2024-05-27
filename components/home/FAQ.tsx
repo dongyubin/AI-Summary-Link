@@ -55,7 +55,7 @@ const FAQ = ({
             indicator={<PlusIcon />}
             title={item.title}
           >
-            {item.content}
+            <div dangerouslySetInnerHTML={{ __html: item.content }} />
           </AccordionItem>
         ))}
       </Accordion>

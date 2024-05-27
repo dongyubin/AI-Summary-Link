@@ -1,43 +1,43 @@
 {
   "Hero": {
-    "title1": "AI快速生成",
-    "title2": "链接摘要工具",
-    "title3": "",
-    "description": "一个开源的AI链接摘要工具，适用于各种博客、链接，提升博客SEO。"
+    "title1": "这是轻松创建强大博客文章并提升SEO的秘密武器。",
+    "title2": "WordPress AI文本摘要插件",
+    "title3": "在几秒钟内吸引您的读者！介绍我们最先进的人工智能WordPress文本摘要工具",
+    "description": "使用我们的人工智能文本摘要工具提升您的WordPress博客！"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "制造商发货快"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "功能"
   },
   "Pricing": {
     "title": "定价",
-    "title2": "拥有无限访问权限",
-    "description": "",
+    "title2": "获取无限访问权限。",
+    "description": "您当前查看的页面是一个开源的免费样板。",
     "doYouLike": "",
-    "follow": "关注我的推特。"
+    "follow": "关注我的Twitter。"
   },
   "WallOfLove": {
-    "title": "Wall of Love",
-    "description1": "",
-    "description2": "",
-    "description3": ""
+    "title": "爱心墙",
+    "description1": "如果你使用这个着陆页模板并在Twitter上推荐它，",
+    "description2": "请告诉我",
+    "description3": "。我会在这里显示你的推文和推荐。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "这里有一些最常见的问题。"
+    "title": "常见问题",
+    "description": ""
   },
   "CTA": {
     "title": "",
     "description1": "构建",
     "description2": "",
-    "description3": "",
-    "description4": "",
-    "description5": "",
+    "description3": "展示",
+    "description4": "您的产品，并",
+    "description5": "开始盈利",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取源码"
+    "title": "获取代码"
   }
 }

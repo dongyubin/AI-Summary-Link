@@ -1,210 +1,206 @@
-import { LucideIcon, MagnetIcon } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
-import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
-
+import { TbAdjustments, TbFocus2, TbHourglassOff, TbPlug, TbRuler2, TbUsers } from "react-icons/tb";
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Instant Summaries, Save Time",
+    content: "No more manual summarizing needed! Our artificial intelligence can do it with just one click. Spend less time summarizing and more time creating great content.",
+    icon: TbHourglassOff,
   },
   {
-    title: "Responsive Design",
+    title: "Engagement Booster",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+      "In our swiftly changing digital era, time is a valuable commodity. Hence, it\'s vital to enthrall your audience with content that is both brief and impactful.",
+    icon: TbUsers,
   },
   {
-    title: "Easy Customization",
+    title: "Retain the Essence",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+      "Crafted with care, our summaries retain the core message of your post.",
+    icon: TbFocus2,
   },
   {
-    title: "SEO Optimized",
+    title: "Customizable",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+      "Tailor your summaries to your style - choose from balanced, creative, or precise.",
+    icon: TbAdjustments,
   },
   {
-    title: "One-Click Deployment",
+    title: "Control Length",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+      "Control the length of your summary, from a quick snapshot to a detailed overview.",
+    icon: TbRuler2,
   },
   {
-    title: "Globalization Support",
+    title: "Seamless Integration",
     content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+      "Perfect for WordPress - generate and insert summaries with a single click from your blog post page. Elevate your blog posts effortlessly!",
+    icon: TbPlug,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "即时摘要，节省时间",
+    content: "不再需要手动摘要！我们的人工智能只需点击一下就能完成。花更少的时间进行摘要，更多的时间用于创造精彩的内容。",
+    icon: TbHourglassOff,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "提升参与度",
+    content: "在快速变化的数字时代，时间是宝贵的。因此，用简洁而有力的内容吸引观众至关重要。",
+    icon: TbUsers,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "保留内容精华",
+    content: "我们的摘要精心制作，保留了文章的核心信息。",
+    icon: TbFocus2,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "可定制",
+    content: "按照您的风格定制摘要 - 选择均衡、创意或精确。",
+    icon: TbAdjustments,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "控制长度",
+    content: "控制摘要的长度，从快速概述到详细的概览。",
+    icon: TbRuler2,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "无缝集成",
+    content: "非常适合WordPress - 只需点击一下即可从博客文章页面生成并插入摘要。轻松提升您的博客文章！",
+    icon: TbPlug,
   },
 ];
 
 export const FEATURES_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    title: "瞬時サマリー、時間を節約",
+    content: "もう手動での要約は必要ありません！当社の人工知能がワンクリックでそれを行います。要約にかける時間を減らし、素晴らしいコンテンツ作成にもっと時間をかけましょう。",
+    icon: TbHourglassOff,
   },
   {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    title: "エンゲージメント促進",
+    content: "急速に変化するデジタル時代において、時間は貴重です。したがって、短くてもインパクトのあるコンテンツでオーディエンスを魅了することが重要です。",
+    icon: TbUsers,
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    title: "エッセンスを保持",
+    content: "私たちの要約は、精巧に作られており、記事の核心メッセージを保持します。",
+    icon: TbFocus2,
   },
   {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    title: "カスタマイズ可能",
+    content: "バランス、クリエイティブ、精密から選んで、あなたのスタイルに合わせた要約を作成します。",
+    icon: TbAdjustments,
   },
   {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    title: "長さをコントロール",
+    content: "クイックショットから詳細な概要まで、要約の長さをコントロールします。",
+    icon: TbRuler2,
   },
   {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    title: "シームレスな統合",
+    content: "WordPressに最適 - ワンクリックでブログ記事ページから要約を生成して挿入します。ブログ記事を手間なく向上させましょう！",
+    icon: TbPlug,
   },
 ];
 
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    title: "ملخصات فورية، توفير الوقت",
+    content: "لا حاجة للتلخيص اليدوي بعد الآن! يمكننا الذكاء الاصطناعي القيام بذلك بنقرة واحدة فقط. اقض وقتًا أقل في التلخيص ووقتًا أكثر في إنشاء محتوى رائع.",
+    icon: TbHourglassOff,
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    title: "تعزيز التفاعل",
+    content: "في عصرنا الرقمي المتغير بسرعة، الوقت سلعة ثمينة. لذا، من الضروري أن تأسر جمهورك بمحتوى مختصر وفعال.",
+    icon: TbUsers,
   },
   {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    title: "احتفظ بالجوهر",
+    content: "تم تصميم ملخصاتنا بعناية للحفاظ على الرسالة الأساسية لمقالك.",
+    icon: TbFocus2,
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    title: "قابل للتخصيص",
+    content: "خصص ملخصاتك حسب أسلوبك - اختر من بين متوازن، إبداعي، أو دقيق.",
+    icon: TbAdjustments,
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    title: "تحكم في الطول",
+    content: "تحكم في طول ملخصك، من مشهد سريع إلى نظرة عامة مفصلة.",
+    icon: TbRuler2,
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    title: "تكامل سلس",
+    content: "مثالي لـ ووردبريس - توليد وإدخال الملخصات بنقرة واحدة من صفحة منشور مدونتك. ارتقي بمقالات مدونتك بسهولة!",
+    icon: TbPlug,
   },
 ];
 
 export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    title: "Resúmenes Instantáneos, Ahorra Tiempo",
+    content: "¡No más resumir manualmente! Nuestra inteligencia artificial puede hacerlo con solo un clic. Pasa menos tiempo resumiendo y más tiempo creando contenido excelente.",
+    icon: TbHourglassOff,
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    title: "Impulso de Participación",
+    content: "En nuestra era digital en rápida evolución, el tiempo es un bien valioso. Por lo tanto, es vital cautivar a tu audiencia con contenido breve e impactante.",
+    icon: TbUsers,
   },
   {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    title: "Mantén la Esencia",
+    content: "Nuestros resúmenes están cuidadosamente elaborados para retener el mensaje central de tu publicación.",
+    icon: TbFocus2,
   },
   {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    title: "Personalizable",
+    content: "Adapta tus resúmenes a tu estilo - elige entre equilibrado, creativo o preciso.",
+    icon: TbAdjustments,
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    title: "Controla la Longitud",
+    content: "Controla la longitud de tu resumen, desde una visión rápida hasta un resumen detallado.",
+    icon: TbRuler2,
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    title: "Integración Perfecta",
+    content: "Perfecto para WordPress - genera e inserta resúmenes con un solo clic desde la página de tu publicación de blog. ¡Eleva tus publicaciones de blog sin esfuerzo!",
+    icon: TbPlug,
   },
 ];
 
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    title: "Мгновенные Резюме, Экономия Времени",
+    content: "Больше не нужно вручную создавать резюме! Наш искусственный интеллект может сделать это одним щелчком мыши. Тратьте меньше времени на создание резюме и больше времени на создание отличного контента.",
+    icon: TbHourglassOff,
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    title: "Увеличение Вовлеченности",
+    content: "В нашем быстро меняющемся цифровом мире время - это ценный ресурс. Поэтому важно увлекать свою аудиторию кратким и насыщенным контентом.",
+    icon: TbUsers,
   },
   {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    title: "Сохранение Сущности",
+    content: "Наши резюме тщательно составлены и сохраняют основное сообщение вашего поста.",
+    icon: TbFocus2,
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    title: "Индивидуальная Настройка",
+    content: "Настройте свои резюме в соответствии со своим стилем - выберите между сбалансированным, креативным или точным.",
+    icon: TbAdjustments,
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    title: "Контроль Длины",
+    content: "Контролируйте длину вашего резюме, от быстрого обзора до детализированного обзора.",
+    icon: TbRuler2,
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    title: "Бесшовная Интеграция",
+    content: "Идеально для WordPress - создавайте и вставляйте резюме одним кликом с вашей страницы публикации в блоге. Поднимите ваши блог-посты без усилий!",
+    icon: TbPlug,
   },
 ];
 

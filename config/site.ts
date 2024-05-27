@@ -1,12 +1,13 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
+import { BsGithub, BsTwitterX } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
+import { SiBuymeacoffee } from "react-icons/si";
+
 
 const OPEN_SOURCE_URL = 'https://github.com/dongyubin/AI-Summary-Link'
 
 const baseSiteConfig = {
-  name: "AI Link Summarizer",
+  name: "WP AI Text Summarizer",
   description:
     "An open-source AI link summary tool suitable for various blogs and links, enhancing blog SEO.",
   url: "https://www.aisummary.link",

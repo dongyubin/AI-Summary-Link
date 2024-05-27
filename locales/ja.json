@@ -1,43 +1,43 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "ランディングページ",
-    "title3": "迅速に構築",
-    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
+    "title1": "SEOを向上させる強力なブログ投稿を簡単に作成する秘密の武器です。",
+    "title2": "WordPress AI テキスト要約プラグイン",
+    "title3": "読者を数秒で引き付ける！最先端の人工知能 WordPress テキスト要約ツールを紹介します",
+    "description": "人工知能テキスト要約ツールでWordPressブログを改善しましょう！"
   },
   "SocialProof": {
-    "maker": "開発者が迅速に出荷"
+    "maker": "メーカーは迅速に出荷します"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "機能"
   },
   "Pricing": {
     "title": "価格設定",
-    "title2": "無制限アクセスを取得。",
-    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
-    "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
+    "title2": "無制限のアクセスを取得。",
+    "description": "現在表示しているページはオープンソースの無料ボイラープレートです。",
+    "doYouLike": "",
     "follow": "私のTwitterをフォローしてください。"
   },
   "WallOfLove": {
-    "title": "WallOfLove",
-    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
+    "title": "愛の壁",
+    "description1": "このランディングページテンプレートを使用して、Twitterで推奨する場合は、",
     "description2": "私に知らせてください",
-    "description3": "。あなたのツイートと推薦をここに表示します。"
+    "description3": "。あなたのツイートと推奨をここに表示します。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "最も頻繁に尋ねられる質問はこちらです。"
+    "title": "よくある質問",
+    "description": ""
   },
   "CTA": {
-    "title": "今すぐあなたのランディングページを構築",
-    "description1": "あなたのランディングページを",
-    "description2": "構築し、",
-    "description3": "あなたの製品を",
-    "description4": "紹介し、そして",
-    "description5": "収益を得始めましょう",
+    "title": "",
+    "description1": "構築",
+    "description2": "",
+    "description3": "表示",
+    "description4": "製品を",
+    "description5": "開始",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "テンプレートを入手"
+    "title": "コードを取得"
   }
 }

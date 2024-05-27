@@ -1,11 +1,12 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "Página de aterrizaje",
-    "title3": "construcción rápida"
+    "title1": "Es la arma secreta para crear fácilmente publicaciones de blog poderosas que mejoran el SEO.",
+    "title2": "Plugin de Resumen de Texto con IA para WordPress",
+    "title3": "¡Atrae a tus lectores en segundos! Presentamos nuestro avanzado resumidor de texto con inteligencia artificial para WordPress",
+    "description": "¡MEJORA TU BLOG DE WORDPRESS CON NUESTRO RESUMIDOR DE TEXTO CON INTELIGENCIA ARTIFICIAL!"
   },
   "SocialProof": {
-    "maker": "creadores construyen rápido"
+    "maker": "los creadores envían rápido"
   },
   "Feature": {
     "title": "Características"
@@ -13,30 +14,30 @@
   "Pricing": {
     "title": "Precios",
     "title2": "Obtén acceso ilimitado.",
-    "description": "La página que estás viendo actualmente es un template gratuito y de código abierto.",
-    "doYouLike": "¿Te gusta este template para páginas de aterrizaje?",
+    "description": "La página que estás viendo actualmente es una plantilla gratuita y de código abierto.",
+    "doYouLike": "",
     "follow": "Sigue mi Twitter."
   },
   "WallOfLove": {
     "title": "Muro del Amor",
-    "description1": "Si usas esta plantilla para página de aterrizaje y la recomiendas en tu Twitter,",
-    "description2": "por favor házmelo saber",
-    "description3": ". Exhibiré tu tweet y recomendación aquí."
+    "description1": "Si usas esta plantilla de página de aterrizaje y la recomiendas en tu Twitter,",
+    "description2": "por favor avísame",
+    "description3": ". Mostraré tu tweet y tu recomendación aquí."
   },
   "FAQ": {
     "title": "Preguntas Frecuentes",
-    "description": "Aquí están algunas de las preguntas más frecuentes."
+    "description": ""
   },
   "CTA": {
-    "title": "Construye tu página de aterrizaje ahora",
+    "title": "",
     "description1": "Construye",
-    "description2": "tu página de aterrizaje,",
+    "description2": "",
     "description3": "muestra",
     "description4": "tu producto, y",
-    "description5": "comienza a ganar",
+    "description5": "empieza a ganar",
     "description6": "¡dinero!"
   },
   "CTAButton": {
-    "title": "Obtener Plantilla"
+    "title": "Obtener Código"
   }
 }
