@@ -1,4 +1,6 @@
-# AI-Summary-Link
+![2WGPT AI博客文章摘要生成器](https://usacdn.wangdu.site/file/blog-cdn/WP-CDN-02/2024/202407041028545.png)
+
+# AI-Summary-Link 文章摘要
 
 [管理后台](https://www.wangdu.site/wp-login.php?action=register)、[购买激活码](https://fk.wwkejishe.top/buy/16)
 
@@ -33,10 +35,40 @@
 
 ### wwGPT_Selector
 
-这个参数是填写你的博客文章所在的元素属性的选择器，在生成提交的文本时，只会将这个选择器对应的元素内的文本进行提交，并且在这个选择器对应的元素上放插入AI摘要。如果你使用的是Butterfly主题，那么为`.post-content`
+这个参数是填写你的博客文章所在的元素属性的选择器，在生成提交的文本时，只会将这个选择器对应的元素内的文本进行提交，并且在这个选择器对应的元素上放插入AI摘要。如果你使用的是Hexo Butterfly主题，那么为`.post-content`
 
-其他博客主题选择器值，可以参考 [TianGPT文档](https://postsummary.zhheo.com/install.html)
+其他博客主题选择器值，可以参考 [主题适配](#主题适配)
 
 ### wwGPT_key
 
-先在 [管理后台](https://www.wangdu.site/wp-login.php?action=register)，然后在 [发卡平台购买激活码](https://fk.wwkejishe.top/buy/16) ，10 万字符/19.9元，请求过得链接再次请求不会消耗字符额度，可以无限期使用。
+先在 [管理后台](https://www.wangdu.site/wp-login.php?action=register) 注册账号，然后在 [发卡平台购买激活码](https://fk.wwkejishe.top/buy/16) ，10 万字符/19.9元，请求过得链接再次请求不会消耗字符额度，可以无限期使用。
+
+## 主题适配
+
+非常多的小伙伴提供了他们对应主题的安装教程，你可以更加轻松的去使用他们。
+
+| 主题名称             | wwGPT_Selector                            |
+| :------------------- | :---------------------------------------- |
+| hexo-theme-butterfly | #post #article-container                  |
+| hexo-theme-fluid     | #board .post-content                      |
+| hexo-theme-next      | #posts .post-body                         |
+| hexo-theme-redefine  | .article-content.markdown-body            |
+| hexo-theme-stellar   | .md-text.content.post                     |
+| hexo-theme-volantis  | #post #post-body                          |
+| hexo-theme-solitude  | #post #post-body                          |
+| hugo-theme-DoIt      | .page.single:not(.special) .content       |
+| halo-theme-xue       | #container .article-content #lightGallery |
+| wordpress: argon     | #post_content                             |
+| wordpress: 7B2       | #primary-home .entry-content              |
+| wordpress：pix       | .single-content                           |
+| wordpress: Sakurairo | .post .entry-content                      |
+| wordpress: 子比主题  | .single-post .wp-posts-content            |
+| wordpress: CorePress | .post-content-content                     |
+| wordpress: OneNav    | .post-template-default .panel-body        |
+| wordpress: ripro     | .post-template-default .content-wrapper   |
+| valaxy-theme-yun     | .content .markdown-body                   |
+| typecho-bearsimple   | #post-content #bearsimple-images          |
+| typecho-bearhoney    | .post-content-block .content              |
+| typecho-handsome     | #postpage #md_handsome_origin             |
+| typecho-joe          | .joe_post .joe_detail__article            |
+| typecho-void         | .articleBody                              |
