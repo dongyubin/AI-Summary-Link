@@ -1,4 +1,4 @@
-![2WGPT AI博客文章摘要生成器](https://usacdn.wangdu.site/file/blog-cdn/WP-CDN-02/2024/202407041028545.png)
+![2WGPT AI博客文章摘要生成器](https://usacdn.wangdu.site/file/blog-cdn/WP-CDN-02/2024/202407041028545.webp)
 
 # AI-Summary-Link 文章摘要
 
