@@ -14,10 +14,10 @@ const links = [
     label: "Features",
     href: "#Features",
   },
-  // {
-  //   label: "Pricing",
-  //   href: "#Pricing",
-  // },
+  {
+    label: "Pricing",
+    href: "#Pricing",
+  },
   // {
   //   label: "Wall of Love",
   //   href: "#WallOfLove",

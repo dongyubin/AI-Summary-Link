@@ -1,73 +1,68 @@
 import { LucideIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { TbAdjustments, TbFocus2, TbHourglassOff, TbPlug, TbRuler2, TbUsers } from "react-icons/tb";
+import { TbAdjustments, TbBrain, TbFocus2, TbHourglassOff, TbPlug, TbRuler2, TbSeo, TbStack2, TbUsers, TbWriting } from "react-icons/tb";
 export const FEATURES_EN = [
   {
-    title: "Instant Summaries, Save Time",
-    content: "No more manual summarizing needed! Our artificial intelligence can do it with just one click. Spend less time summarizing and more time creating great content.",
-    icon: TbHourglassOff,
+    title: "One-Click Summaries with 20+ Leading AI Models",
+    content: "Exclusive access to 20+ top-tier models including GPT-4o, Kimi, Gemini, DeepSeek, ERNIE Bot, Qwen, Hunyuan and more. Generate authoritative, precise and highly-readable AI summaries instantly—no manual writing required, 10× faster content creation.",
+    icon: TbBrain,
   },
   {
-    title: "Engagement Booster",
-    content:
-      "In our swiftly changing digital era, time is a valuable commodity. Hence, it\'s vital to enthrall your audience with content that is both brief and impactful.",
-    icon: TbUsers,
+    title: "Auto SEO Keywords & Tag Injection",
+    content: "AI scans your full text in real time, extracts high-value keywords, and auto-generates tags that can be inserted into your post with one click. Search engines grasp your topic instantly, rankings rise faster and organic traffic grows naturally.",
+    icon: TbSeo,
   },
   {
-    title: "Retain the Essence",
-    content:
-      "Crafted with care, our summaries retain the core message of your post.",
-    icon: TbFocus2,
+    title: "Bulk Generate—Whole Site Done in 5 Minutes",
+    content: "Process thousands of historical articles in a single click, instantly equipping every post with high-quality summaries and keywords. New sites get indexed faster; old sites get a fresh boost—effortless and time-saving.",
+    icon: TbStack2,
   },
   {
-    title: "Customizable",
-    content:
-      "Tailor your summaries to your style - choose from balanced, creative, or precise.",
-    icon: TbAdjustments,
+    title: "Typewriter Animation Boosts Dwell Time by 30%",
+    content: "Toggle-on typewriter effect reveals the summary word by word, creating a cinematic reading experience that lowers bounce rate and increases on-page time and engagement.",
+    icon: TbWriting,
   },
   {
-    title: "Control Length",
-    content:
-      "Control the length of your summary, from a quick snapshot to a detailed overview.",
+    title: "Fully Customizable Length & Style",
+    content: "Choose any length from a 50-character teaser to a 500-character deep dive. Switch between custom styles on the fly to perfectly match your brand voice and audience preference.",
     icon: TbRuler2,
   },
   {
-    title: "Seamless Integration",
-    content:
-      "Perfect for WordPress - generate and insert summaries with a single click from your blog post page. Elevate your blog posts effortlessly!",
+    title: "Zero-Code Integration for WordPress",
+    content: "Purpose-built for WordPress—install, activate and generate summaries directly inside the post editor with a single click. No extra setup required; compatible with every theme and page builder.",
     icon: TbPlug,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "即时摘要，节省时间",
-    content: "不再需要手动摘要！我们的人工智能只需点击一下就能完成。花更少的时间进行摘要，更多的时间用于创造精彩的内容。",
-    icon: TbHourglassOff,
+    title: "20+ 大模型一键总结，摘要质量行业领先",
+    content: "独家接入 GPT-4o、Kimi、Gemini、DeepSeek、文心一言、通义千问、混元等 20 余种主流大模型。无需手动撰写，点击即可生成权威、精准、高可读性的 AI 摘要，创作效率飙升 10 倍。",
+    icon: TbBrain,
   },
   {
-    title: "提升参与度",
-    content: "在快速变化的数字时代，时间是宝贵的。因此，用简洁而有力的内容吸引观众至关重要。",
-    icon: TbUsers,
+    title: "智能提取 SEO 关键词，自动填充标签",
+    content: "AI 实时分析全文，自动抓取高价值关键词并生成标签，一键写入文章。帮助搜索引擎秒懂主题，排名更快上升，流量自然增长。",
+    icon: TbSeo,
   },
   {
-    title: "保留内容精华",
-    content: "我们的摘要精心制作，保留了文章的核心信息。",
-    icon: TbFocus2,
+    title: "批量生成，整站摘要 5 分钟搞定",
+    content: "支持一键批量处理历史文章，数千篇内容瞬间拥有高质量摘要与关键词。新站加速收录，老站焕发新生，运营省时省力。",
+    icon: TbStack2,
   },
   {
-    title: "可定制",
-    content: "按照您的风格定制摘要 - 选择均衡、创意或精确。",
-    icon: TbAdjustments,
+    title: "打字机动效，用户停留时长提升 30%",
+    content: "可开关的打字机效果，让摘要逐字呈现，增强阅读仪式感与沉浸感，显著降低跳出率，提升页面停留时长与互动率。",
+    icon: TbWriting,
   },
   {
-    title: "控制长度",
-    content: "控制摘要的长度，从快速概述到详细的概览。",
+    title: "长度 & 风格随心定制",
+    content: "从 50 字短述到 500 字深度概览，摘要长度自由编写。支持「自定义」多风格切换，精准匹配品牌调性与受众偏好。",
     icon: TbRuler2,
   },
   {
-    title: "无缝集成",
-    content: "非常适合WordPress - 只需点击一下即可从博客文章页面生成并插入摘要。轻松提升您的博客文章！",
+    title: "零代码集成，WordPress 即装即用",
+    content: "专为 WordPress 深度优化，安装启用后即可在文章编辑页一键生成并插入摘要。无需额外设置，兼容所有主题与页面构建器。",
     icon: TbPlug,
   },
 ];

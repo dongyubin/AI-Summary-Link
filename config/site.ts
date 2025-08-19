@@ -7,13 +7,13 @@ import { SiBuymeacoffee } from "react-icons/si";
 const OPEN_SOURCE_URL = 'https://github.com/dongyubin/AI-Summary-Link'
 
 const baseSiteConfig = {
-  name: "WP AI Text Summarizer",
+  name: "AI SEO Summary Pro: 1-Click AI Summaries & Auto SEO for WordPress",
   description:
-    "An open-source AI link summary tool suitable for various blogs and links, enhancing blog SEO.",
+    "AI SEO Summary Pro: Generate keyword-rich summaries with GPT-4o, Kimi & 20+ AIs. Bulk-create, auto-tag, rank faster on WordPress—zero code, instant traffic & engagement boost.",
   url: "https://www.aisummary.link",
   ogImage: "https://www.aisummary.link/og.png",
   metadataBase: '/',
-  keywords: ["AI Link Summarizer", "AI Summarizer", "AI Article Summarizer", "AI Summarizer Article"],
+  keywords: ["AI SEO Summary Pro", "AI Link Summarizer", "AI Summarizer", "AI Article Summarizer", "AI Summarizer Article"],
   authors: [
     {
       name: "wwkjs666",
