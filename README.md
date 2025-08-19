@@ -1,53 +1,51 @@
-![2WGPT AI博客文章摘要生成器](https://usacdn.wangdu.site/file/blog-cdn/WP-CDN-02/2024/202407041028545.webp)
+# AI-SEO-Summary-Pro
 
-# AI-Summary-Link 文章摘要
+「[简体中文](./README-zh.md)」
 
-[管理后台](https://www.wangdu.site/wp-login.php?action=register)、[购买激活码](https://fk.wwkejishe.top/buy/16)
+### Generate SEO-friendly AI summaries for WordPress, Hexo, Hugo, Typecho, Halo, and more
 
-适用于绝大多数博客网站的文章摘要生成器
+[Admin Panel](https://www.wangdu.site/wp-login.php?action=register) | [Buy License](https://fk.wwkjs.top/buy/16) (Global users [BuyMeACoffee](https://buymeacoffee.com/dongyubin/e/257941))
 
-## 什么是 2wGPT
+![AI-SEO-Summary-Pro](https://cdn.wwkejishe.top/wp-cdn-02/2024/202407041028545.webp)
 
-2w 为`文武`首字母缩写，2wGPT 是一个专门通过链接提取文字摘要生成工具，在 [WordPress AI文章摘要生成插件：AI-Article-Summary](https://www.wangdu.site/course/2075.html) 基础上又增加了 API 版本和管理后台(更加直观的管理AI摘要内容)
 
-- 实时生成文章摘要
-- 自动生成AI摘要，无需人工干预
-- 一次生成AI摘要，再次生成无需消耗文字额度（可后台管理）
-- 支持导出 csv 文件，数据备份更方便
-- 配置简单，兼容性更强
+## Highlights
 
-## 如何部署 2wGPT
+| Feature                | Description                                          |
+| :--------------------- | :--------------------------------------------------- |
+| 🎯 AI-powered summaries | Extract core ideas with LLMs, not simple truncation  |
+| 🔍 SEO optimized        | Auto-generated summaries + keywords boost ranking    |
+| ⚡ One-click generation | Triggered automatically on publish/update            |
+| 💰 One-time purchase    | 100 k chars / US$3, no extra fees for re-generation  |
+| 🛠 Multi-theme ready    | 20+ popular WordPress & static blog themes supported |
+| 📤 Exportable data      | CSV backup for easy migration                        |
 
-1. 你需要在博客后面位置引入js和css（**引入在网站的任意位置**）
 
-   ```html
-   <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/dongyubin/AI-Summary-Link/2wGPT.css">
-   <script>
-   let wwGPT_Selector = '.post-content';
-   let wwGPT_key = 'hPkCwC9wkWxN';
-   </script>
-   <script src="https://cdn1.tianli0.top/gh/dongyubin/AI-Summary-Link/2wGPT.js"></script>
-   ```
 
-2. 我们需要更改一些参数来让这个模型运作起来。
+## Two ways to use
 
-   `wwGPT_Selector` 、 `wwGPT_key`
+### 1) WordPress Plugin (easiest)
 
-### wwGPT_Selector
+1. WP Admin → Plugins → Add New → Upload `AI-SEO-Summary-Pro.zip` → Activate
+2. Settings → AI SEO Summary Pro → paste your license key → Done!
 
-这个参数是填写你的博客文章所在的元素属性的选择器，在生成提交的文本时，只会将这个选择器对应的元素内的文本进行提交，并且在这个选择器对应的元素上放插入AI摘要。如果你使用的是Hexo Butterfly主题，那么为`.post-content`
+### 2) Universal JS (2wGPT)
 
-其他博客主题选择器值，可以参考 [主题适配](#主题适配)
+For Hexo, Hugo, Typecho, Halo, etc.
 
-### wwGPT_key
+```html
+<!-- Place before </body> -->
+<link rel="stylesheet" href="https://cdn1.tianli0.top/gh/dongyubin/AI-Summary-Link/2wGPT.css">
+<script>
+  window.wwGPT_Selector = '.post-content';   // article body selector
+  window.wwGPT_key      = 'hPkCwC9wkWxN';    // get from admin panel
+</script>
+<script src="https://cdn1.tianli0.top/gh/dongyubin/AI-Summary-Link/2wGPT.js"></script>
+```
 
-先在 [管理后台](https://www.wangdu.site/wp-login.php?action=register) 注册账号，然后在 [发卡平台购买激活码](https://fk.wwkejishe.top/buy/16) ，10 万字符/19.9元，请求过得链接再次请求不会消耗字符额度，可以无限期使用。
+#### Theme selector cheatsheet
 
-## 主题适配
-
-非常多的小伙伴提供了他们对应主题的安装教程，你可以更加轻松的去使用他们。
-
-| 主题名称             | wwGPT_Selector                            |
+| Theme                | wwGPT_Selector                            |
 | :------------------- | :---------------------------------------- |
 | hexo-theme-butterfly | #post #article-container                  |
 | hexo-theme-fluid     | #board .post-content                      |
@@ -72,3 +70,19 @@
 | typecho-handsome     | #postpage #md_handsome_origin             |
 | typecho-joe          | .joe_post .joe_detail__article            |
 | typecho-void         | .articleBody                              |
+
+## Quick Start (3 steps)
+
+1. Create an account at the [Admin Panel](https://www.wangdu.site/wp-login.php?action=register)
+2. Buy a license (100 k chars / US$3, refillable)
+3. Paste the key into the plugin or `wwGPT_key` variable → Enjoy!
+
+
+## FAQ
+
+- **How is quota calculated?**
+  Only the first generation of a URL consumes chars; subsequent calls are free.
+- **Does it support multi-language articles?**
+  Yes—Chinese, English, Japanese, Korean, etc.
+- **Can I self-host?**
+  Cloud API only at the moment; on-premise version coming soon.
